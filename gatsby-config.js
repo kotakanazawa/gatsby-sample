@@ -4,6 +4,7 @@ module.exports = {
     title: `ESSENTIALS`,
     description: `美味しい食材と食事を探求するサイト`,
     lang: `ja`,
+    siteUrl: `https://naughty-brahmagupta-2c75d2.netlify.app`
   },
   plugins: [
     'gatsby-transformer-sharp',

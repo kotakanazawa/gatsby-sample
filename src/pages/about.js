@@ -6,11 +6,12 @@ import { faUtensils, faCheckSquare } from "@fortawesome/free-solid-svg-icons"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 
-export default ({ data }) => (
+export default ({ data, location }) => (
   <Layout>
     <SEO
       pagetitle="ESSENTIALSについて"
       pagedesc="食べ物についての情報を発信しているサイトです"
+      pagepath={location.pathname}
     />
     <div className="eyecatch">
       <figure>
