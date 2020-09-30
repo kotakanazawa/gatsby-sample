@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
+import { Link } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faTwitter,
@@ -25,7 +26,7 @@ export default () => {
     <footer className="footer">
       <div className="container">
         <div className="site">
-          <a href="https://naughty-brahmagupta-2c75d2.netlify.app/">
+          <Link to={`/`}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="225.65"
@@ -39,7 +40,7 @@ export default () => {
               />
             </svg>
             <p>おいしい食材と食事を探求するサイト</p>
-          </a>
+          </Link>
         </div>
         <ul className="sns">
           <li>
