@@ -94,7 +94,7 @@ export default ({ data }) => (
 )
 
 export const query = graphql`
-  query MyQuery {
+  query {
     hero: file(relativePath: { eq: "hero.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1600) {
