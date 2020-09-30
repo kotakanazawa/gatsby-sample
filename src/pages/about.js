@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faUtensils, faCheckSquare } from "@fortawesome/free-solid-svg-icons"
 import { graphql } from "gatsby"
@@ -7,6 +8,10 @@ import Img from "gatsby-image"
 
 export default ({ data }) => (
   <Layout>
+    <SEO
+      pagetitle="ESSENTIALSについて"
+      pagedesc="食べ物についての情報を発信しているサイトです"
+    />
     <div className="eyecatch">
       <figure>
         <Img
